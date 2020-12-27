@@ -1,0 +1,63 @@
+.navigation {
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex: 1;
+}
+.navProfileContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.profileInfoContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-decoration: none;
+}
+.name:hover {
+  color: var(--secondary);
+}
+.tagsContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.navProfile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.navLink {
+  text-decoration: none;
+  color: var(--primary-font-type);
+}
+.name {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-family: var(--primary-font-type);
+  font-weight: bold;
+  color: var(--primary-text);
+  margin: 0rem 0.5rem;
+  
+}
+
+.tags {
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  font-family: var(--primary-font-type);
+  color: var(--primary-text);
+  margin: 0px 5px;
+}
+
+.tags:hover {
+  color: var(--secondary);
+}

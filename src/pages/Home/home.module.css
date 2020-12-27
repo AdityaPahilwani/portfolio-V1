@@ -1,0 +1,79 @@
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+ul {
+  margin: 0;
+}
+.cardContainer {
+  display: flex;
+  flex: 1;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.heading {
+  color: var(--primary-text);
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  font-family: var(--primary-font-type);
+  font-weight: bold;
+  border-bottom: var(--heading-underline);
+}
+
+.subHeading {
+  font-size: 2.1rem;
+  letter-spacing: 0.1rem;
+  font-family: var(--primary-font-type);
+  font-weight: 0;
+}
+.detailContainer {
+  color: var(--primary-text);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-family: var(--primary-font-type);
+  margin: 1rem 0;
+}
+
+.detailContainer .name {
+  font: inherit;
+  color: var(--secondary-text);
+}
+.bottomColor {
+  font: inherit;
+  border-bottom: var(--text-underline);
+}
+
+.iconContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.icon {
+  color: var(--secondary);
+  margin: 0 1rem;
+}
+.profileImageContainer {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
