@@ -19,7 +19,7 @@ ul {
 
 .heading {
   color: var(--primary-text);
-  font-size: 2.4rem;
+  font-size: 2.23rem;
   letter-spacing: 0.1rem;
   font-family: var(--primary-font-type);
   font-weight: bold;
@@ -27,14 +27,14 @@ ul {
 }
 
 .subHeading {
-  font-size: 2.1rem;
+  font-size: 2.0rem;
   letter-spacing: 0.1rem;
   font-family: var(--primary-font-type);
   font-weight: 0;
 }
 .detailContainer {
   color: var(--primary-text);
-  font-size: 1.8rem;
+  font-size: 1.75rem;
   letter-spacing: 0.1rem;
   font-family: var(--primary-font-type);
   margin: 1rem 0;
